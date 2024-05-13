@@ -1,0 +1,17 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    border: solid 1px black;
+    aspect-ratio: 1/1;
+}
